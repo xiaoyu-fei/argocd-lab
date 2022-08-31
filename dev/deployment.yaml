@@ -1,6 +1,6 @@
-# deployment.yaml
+# StatefulSet.yaml
 apiVersion: apps/v1
-kind: Deployment
+kind: StatefulSet
 metadata:
   name: myapp
 spec:
